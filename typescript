@@ -1,0 +1,31 @@
+Script started on 2022-07-31 23:57:46-07:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="157" LINES="44"]
+]0;pi@rpi: ~/op/oscar64/samples/kernalio/parser/mult/okworks/oksofar[01;32mpi@rpi[00m:[01;34m~/op/oscar64/samples/kernalio/parser/mult/okworks/oksofar $[00m gcc testparse.c  parser.c scanner.c
+]0;pi@rpi: ~/op/oscar64/samples/kernalio/parser/mult/okworks/oksofar[01;32mpi@rpi[00m:[01;34m~/op/oscar64/samples/kernalio/parser/mult/okworks/oksofar $[00m  ./a.out
+5-4-3.
+-
+  -
+    5
+    4
+  3
+]0;pi@rpi: ~/op/oscar64/samples/kernalio/parser/mult/okworks/oksofar[01;32mpi@rpi[00m:[01;34m~/op/oscar64/samples/kernalio/parser/mult/okworks/oksofar $[00m gcc evalator.c  parser.c scanner.c
+[01m[Kevalator.c:[m[K In function ‘[01m[Keval[m[K’:
+[01m[Kevalator.c:26:2:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kexit[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+  [01;35m[Kexit[m[K(1);
+  [01;35m[K^~~~[m[K
+[01m[Kevalator.c:26:2:[m[K [01;35m[Kwarning: [m[Kincompatible implicit declaration of built-in function ‘[01m[Kexit[m[K’
+[01m[Kevalator.c:26:2:[m[K [01;36m[Knote: [m[Kinclude ‘[01m[K<stdlib.h>[m[K’ or provide a declaration of ‘[01m[Kexit[m[K’
+[01m[Kevalator.c:9:1:[m[K
++[32m[K#include <stdlib.h>[m[K
+ 
+[01m[Kevalator.c:26:2:[m[K
+  [01;36m[Kexit[m[K(1);
+  [01;36m[K^~~~[m[K
+]0;pi@rpi: ~/op/oscar64/samples/kernalio/parser/mult/okworks/oksofar[01;32mpi@rpi[00m:[01;34m~/op/oscar64/samples/kernalio/parser/mult/okworks/oksofar $[00m ./a.out
+Type an infix arithmetic expression:
+5-4-3.
+	-2
+]0;pi@rpi: ~/op/oscar64/samples/kernalio/parser/mult/okworks/oksofar[01;32mpi@rpi[00m:[01;34m~/op/oscar64/samples/kernalio/parser/mult/okworks/oksofar $[00m 
+]0;pi@rpi: ~/op/oscar64/samples/kernalio/parser/mult/okworks/oksofar[01;32mpi@rpi[00m:[01;34m~/op/oscar64/samples/kernalio/parser/mult/okworks/oksofar $[00m exit
+exit
+
+Script done on 2022-07-31 23:58:18-07:00 [COMMAND_EXIT_CODE="0"]
